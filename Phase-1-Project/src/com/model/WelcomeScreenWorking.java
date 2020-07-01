@@ -120,7 +120,8 @@ public void displaySubMenu(FileOperationsWorking work,int firstOption) throws IO
 	        }
 			catch (InputMismatchException input)
 			 {
-				System.out.println("Output:Invalid input....Enter valid option number....Valid option numbers are 1,2,3,4");	
+				System.out.println("Output:Invalid input....Enter valid option number....Valid option numbers are 1,2,3,4");
+				new WelcomeScreenWorking().displayMainMenu(work);
 			 }
 	 }
 	public static void main(String[] args) {
