@@ -63,6 +63,7 @@ public boolean optionValidityForSubMenu(int option) {
 				new WelcomeScreenWorking().displaySubMenu(work,firstOption);
 				break;
 			case 3:
+				System.out.println("Thanks for using this application");
 				System.exit(1);
 				break;
 				}
